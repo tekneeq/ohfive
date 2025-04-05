@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ohfive"
+version = "0.1.0"
+description = ""
+authors = ["Eugene Park <eugenepark3@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+ofv = 'ohfive.main:run'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
